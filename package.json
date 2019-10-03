@@ -1,0 +1,30 @@
+{
+  "name": "godaddy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "tsc": "tsc",
+    "start": "node build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "@types/request": "^2.48.3",
+    "cron": "^1.7.2",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.9",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  }
+}
