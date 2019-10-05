@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . /usr/src/app
 
-RUN npm start tsc
+RUN npm run tsc
 
 EXPOSE 8080
 
